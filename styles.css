@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.info-section,
+.quote-section,
+.signup-section {
+  flex: 1;
+}
+
+.header {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.header-logo {
+  text-decoration: none;
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+  
+  list-style-type: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  width: 75%;
+  padding: 75px 0;
+}
+
+.banner-text {
+  flex: 1;
+}
+
+.banner-header {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin-bottom: 8px;
+}
+
+.banner-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 16px;
+}
+
+.banner-btn {
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #3882F6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+
+.banner-img {
+  background-color: grey;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
