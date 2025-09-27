@@ -157,3 +157,42 @@ body {
   font-weight: 700;
   align-self: end;
 }
+
+.signup-section {
+  padding: 75px 0;
+}
+
+.cta-container {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 30px 100px;
+}
+
+.cta-text {
+  width: 70%;
+}
+.cta-header {
+  font-size: 24px;
+}
+
+.cta-subtext {
+  font-size: 18px;
+}
+
+.cta-btn {
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  border-radius: 8px;
+  width: 100px;
+  height: 40px;
+
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: bold;
+}
